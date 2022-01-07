@@ -1,3 +1,6 @@
+ //Objeto é um conjunto de dados que possuem propriedades e valores
+ 
+ 
  //SINTAXE DO OBJETO: 
  const car = {
     cor: 'Azul', // propriedade e valor // key-value
@@ -81,4 +84,5 @@ var teste = {
     testeNome: 'Jorge',
     /*nomeVariavel: 'Rio de Janeiro'*/ //vai imprimir: nomeVariavel: 'Rio de Janeiro'
     [nomeVariavel]: 'Rio de Janeiro' // vai imprimir: estado: 'Rio de Janeiro'
+    //qnd vc usa o conchetes, vc pega o valor q tem dentro da variável 
 }
