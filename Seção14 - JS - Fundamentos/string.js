@@ -24,8 +24,6 @@ function up(string){
     return string.toUpperCase()
 }
 //ou
-
 const up = string => string.toUpperCase()
-
 
 console.log(`Eii... ${up('cuidado')}`)
