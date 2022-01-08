@@ -43,5 +43,5 @@ function getValor(){
         
     */
 }
-var resultado = getValor();
+var resultado = getValor(); 
 console.log(resultado);
