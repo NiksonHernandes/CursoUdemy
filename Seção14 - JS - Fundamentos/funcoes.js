@@ -18,7 +18,7 @@
     somaNumeros(3,3)
 
 //mais reduzido ainda, retorno implícito, com apenas uma linha:
-    const subtracao = (a,b) => a - b;
+    const subtracao = (a,b)=> a - b; 
 
     console.log(subtracao(3,1))
  

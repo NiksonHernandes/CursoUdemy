@@ -1,4 +1,4 @@
-//A desestruturação torna fácil extrair apenas o que é necessário de um array, objeto;
+//A desestruturação torna fácil extrair apenas o que é necessário de um array, objeto, função;
 
     const veiculos = ['mustang', 'f-1450', 'caminhonete', ['avião']]
 

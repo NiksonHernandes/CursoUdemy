@@ -1,4 +1,4 @@
-//A desestruturação torna fácil extrair apenas o que é necessário de um array, objeto;
+//A desestruturação torna fácil extrair apenas o que é necessário de um array, objeto, função:
 
     const pessoa = {
         nome: 'Ana',
@@ -21,5 +21,5 @@
     console.log(n, i)
 
 //acessando obj dentro do obj:
-    const { hobbies: {casa, rua}} = pessoa          
+    const {hobbies: {casa, rua}} = pessoa          
     console.log(rua, casa)

@@ -3,10 +3,11 @@
 var a =2
 console.log(a);
 
-qualquer = () => {
+qualquer = () => { 
     console.log(a);
     var a = 3;
     console.log(a)
+
     /*meio q ficaria:
     var a = undefined;
     console.log(a)

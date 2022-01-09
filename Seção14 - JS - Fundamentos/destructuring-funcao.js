@@ -12,7 +12,7 @@
 
     console.log(rand(obj))
 
-//exemplo 2
+//exemplo 2:
 
     const vehicleOne = {
         brand: 'Ford',
