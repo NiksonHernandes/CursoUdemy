@@ -19,7 +19,6 @@ console.log(escola.replace(/\d/, 'e')) //sustitui todos os elementos do tipo let
 console.log("Ana, Marcio, Tainara".split(",")) //gera uma string com separação pela vírgula
 
 //expressões:
-
 function up(string){
     return string.toUpperCase()
 }

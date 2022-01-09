@@ -1,5 +1,5 @@
-//você pode definir o valor do parametro para que ele não defina como undefined caso o valor não seja passado:
-    function soma(a = 0, b=0){
+//você pode definir o valor do parametro para que ele não defina como undefined caso o valor não seja passado - CHAMADO DE PARAMETRO PADRÃO!:
+    function soma(a=0, b=0){
         return a + b;
     }
 
