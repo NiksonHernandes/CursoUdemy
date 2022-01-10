@@ -23,6 +23,6 @@ function up(string){
     return string.toUpperCase()
 }
 //ou, só funciona sem os parenteses (string), qnd tem um único parametro, caso fosse (a,b) não funcionaria
-const up = string => string.toUpperCase()
+const up = (string) => string.toUpperCase()
 
 console.log(`Eii... ${up('cuidado')}`)
