@@ -44,13 +44,26 @@
     E substitua o THIS de dentro de setInterval por self.
     
       function Pessoa() {
-        this.idade = 0;
+            this.idade = 0;
 
-        const self = this
+            const self = this
 
-        setInterval(function (){
-            self.idade++
-            console.log(self.idade)
-        }, 1000)
-    }
-    */
+            setInterval(function (){
+                self.idade++
+                console.log(self.idade)
+            }, 1000)
+        }
+
+    OUTRA FORMA:
+
+    Poderiamos usar uma arrow function, já que o comportamento de THIS nela é semelhante a estar dentro de uma variável:
+
+        function Pessoa() {
+            this.idade = 0;
+
+            setInterval(() =>{
+                this.idade++
+                console.log(this.idade)
+            }, 1000)
+        }
+*/
