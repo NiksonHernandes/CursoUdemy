@@ -14,6 +14,20 @@
     fala() /*quando chama a vaiável fala como se fosse a função, da erro(undefined). Pq a this.saudacao esta relacionada ao obj e restrito a ele.
     Ou seja, da um conflito entre paradigmas: funcional e OO*/
 
+//OUTRO METODO:
+
+    function mudarIdade() {
+        console.log(this.idade)
+    }
+     
+    let idade = { 
+        idade: 18 //olha só, agora temos um valor para idade!
+    }
+     
+    let idadeCorretaGarantida = mudarIdade.bind(idade) //amarramos, e virou uma função!
+     
+    idadeCorretaGarantida() //que a gente pode chamar assim, e daí o impresso vai ser... 18!
+
 //caso eu queira relacionar o método que tem o THIS.SAUDACAO com uma variável, eu tenho q usar o método BIND(obj) -> obj - é o objeto em que o this esta relacioando
 //vai VINCULAR o THIS a uma VARIÁVEL 
 
