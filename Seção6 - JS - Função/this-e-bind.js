@@ -15,7 +15,7 @@
     Ou seja, da um conflito entre paradigmas: funcional e OO*/
 
 //OUTRO METODO:
-
+S
     function mudarIdade() {
         console.log(this.idade)
     }
