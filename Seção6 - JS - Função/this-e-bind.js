@@ -11,11 +11,11 @@
 
     pessoa.falar()
     const fala = pessoa.falar //adiciona o método falar em uma função
-    fala() /*quando chama a vaiável fala como se fosse a função, da erro(undefined). Pq a this.saudacao esta relacionada ao obj e restrito a ele.
+    fala() /*quando chama a variável fala como se fosse a função, da erro(undefined). Pq a this.saudacao esta relacionada ao obj e restrito a ele.
     Ou seja, da um conflito entre paradigmas: funcional e OO*/
 
 //OUTRO METODO:
-S
+
     function mudarIdade() {
         console.log(this.idade)
     }
