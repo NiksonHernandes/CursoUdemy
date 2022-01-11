@@ -21,3 +21,8 @@
     }
 
     new Pessoa
+
+//EXEMPLO 3:
+
+//comportamento do THIS dentro da arrow function    
+     
