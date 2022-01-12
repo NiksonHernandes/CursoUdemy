@@ -16,10 +16,15 @@
 
     const myFun = fora()
     console.log(myFun) //retorna Local
+
+    /*A função tem memória do escopo que ela acontece, mesmo vc atribuindo ela a uma variável fora do escopo, ela lembra das suas origens. A função dentro() esta deifinida apenas dentro do escopo da função fora(). Dentro() não tem variável local própria, por isso reusa a variável do pai.*/
+
     console.log(fora()) //retorna Local
 
 
 //EXEMPLO 2:
+
+    var name ='Explorer'
     function init() {
         var name = "Mozilla";
         function displayName() {
