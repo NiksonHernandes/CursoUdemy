@@ -52,6 +52,7 @@
     }
 
     //instanciar -> A instanciação é um processo por meio do qual se realiza a cópia de um objeto (classe) existente.
+    //a função funciona como um MOLDE e a partir desse molde, vc consegue construir quantos objetos vc quiser!!
 
     const uno = new Carro //meio q eu copiei, instanciei, essa função na variável
     uno.acelerar() //chamou a func acelerar, ent botou 5 
