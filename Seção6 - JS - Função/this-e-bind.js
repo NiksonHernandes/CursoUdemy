@@ -1,4 +1,5 @@
 //caso eu queira relacionar o método que tem o THIS.SAUDACAO com uma variável, eu tenho q usar o método BIND(obj) -> obj - é o objeto em que o this esta relacioando
+//O bind serve para atrelar o contexto da função ao objeto desejado.
 
 //BIND-> significa VINCULAR
 
