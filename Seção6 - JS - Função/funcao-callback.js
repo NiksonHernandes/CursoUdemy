@@ -7,7 +7,7 @@
                
     }
 
-    carros.forEach(imprimir)
+    carros.forEach(imprimir) //passa a função como parâmetro para o forEach
 
 //Sem callback
 
@@ -23,10 +23,11 @@
     console.log(notasBaixas)
 
 //Com callback
-//O filter()método cria um novo array preenchido com elementos que passam em um teste fornecido por uma função, retorna TRUE ou FALSE
+/*O filter()método cria um novo array preenchido com elementos que passam em um teste fornecido por uma função, retorna TRUE ou FALSE
+é chamada pra cada elemento do array, pra verificar se atende a função ou n*/
     
     function testeValor(nota) {
-        return nota <7 //retorna true ou false
+        return nota < 7 //retorna true ou false
     }
 
     notasBaixas = notas.filter(testeValor) //o resultado do notas.filter() vai ser um novo array, ou seja, o notasBaixas.
