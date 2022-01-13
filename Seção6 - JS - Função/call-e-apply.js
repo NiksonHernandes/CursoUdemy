@@ -30,3 +30,11 @@
 
     console.log(getPreco.call(carro, 1510, '##0')) 
     console.log(getPreco.apply(carro, [1599, '$']))
+
+    const lol = kill => {
+        if(kill >=10){
+        console.log("Kikara Bom!");
+        }
+   }
+   
+   lol(12)
