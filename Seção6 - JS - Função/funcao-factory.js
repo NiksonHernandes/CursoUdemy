@@ -1,4 +1,5 @@
  //Função de fábrica -> É UMA FUNÇÃO QUE RETORNA UM OBJ
+ //função de fabricar uma nova instancia de obj
 
         //exemplo: 
         const celular = {
