@@ -14,7 +14,7 @@
 
 //outras 2 formas q eu tenho pra executar a função getPreco() é com Call e Apply:
 
-    const carro = {moeda: "$$$", preco: 1460}
+    const carro = {moeda: "$$$", preco: 1460} //esse obj vai assumir o papel do OBJ produto ou seja: console.log(carro.getPreco())
 
     //quero chamar o getPreco e passar o obj carro
     console.log(getPreco.call(carro))
@@ -28,5 +28,5 @@
         console.log(getPreco.apply(carro, [1599, '$']))
     */
 
-    console.log(getPreco.call(carro, 1599, '$')) 
+    console.log(getPreco.call(carro, 1510, '##0')) 
     console.log(getPreco.apply(carro, [1599, '$']))
