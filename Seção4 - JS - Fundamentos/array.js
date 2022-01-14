@@ -166,7 +166,7 @@ const segundo = [4,5,6];
     }
 
     //outra forma:
-    numeros2.forEach(function(num){//ele recebe uam função de callback
+    numeros2.forEach(function(num){//ele recebe uma função de callback
         console.log(num)
     })
 
