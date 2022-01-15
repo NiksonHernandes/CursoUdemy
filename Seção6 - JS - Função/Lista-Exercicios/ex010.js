@@ -6,8 +6,7 @@
         }else{
             return false
         }
-        
-        
+
     }
     
     console.log(verifica(3))
