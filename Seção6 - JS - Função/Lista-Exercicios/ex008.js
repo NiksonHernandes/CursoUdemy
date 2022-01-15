@@ -11,9 +11,28 @@ String: “10 20 20 8 25 3 0 30 1”
 Retorno: [3, 7] (Significa que ele bateu três vezes seu recorde de melhor pontuação e a pior pontuação 
 aconteceu no sétimo jogo.) */
 
-    jogos(30, 40, 20, 4, 51, 25, 42, 38, 56, 0) 
+    let listaJogos = "30, 40, 20, 4, 51, 25, 42, 38, 56, 0"
 
-    function jogos(){
-        
-        console.log(arguments)
-    }
+    function jogos(lista){
+
+      let arrayJogos = lista.split(", ")
+      let maiorPontuacao = arrayJogos[0] 
+      let recorde = 0
+      let piorJogo = arrayJogos[0]  
+      let menor = 0
+   
+
+      for(let i=1; i < arrayJogos.length; i++){
+
+         if(arrayJogos[i] > maiorPontuacao){
+            maiorPontuacao = arrayJogos[i];
+            recorde ++;
+         }else if(arrayJogos[i] < piorJogo){  
+            piorJogo = arrayJogos[i];
+            menor = i+1
+         }
+      }
+        return [recorde, menor]
+    }   
+
+    console.log(jogos(listaJogos))
