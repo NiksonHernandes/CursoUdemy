@@ -38,5 +38,11 @@
     console.log(teste2.retornaDados())
 
 //Object.create 
-    
+    const filha = Object.create(null)
+    filha.nome = 'ANA'
 
+    console.log(filha)
+
+//Uma função famoas que retorna um Obj...
+    const DeJSON = JSON.parse('{"info": "Eu sou um Json"}') //.parse, transforma os dados do Json em obj, ou seja, mais facil de trabalhar
+    console.log(DeJSON.info)
