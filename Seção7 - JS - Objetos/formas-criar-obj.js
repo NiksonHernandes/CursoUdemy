@@ -19,6 +19,7 @@
     const teste1 = new obj3("Nikson", 21, 'Masculino')
     console.log(teste1.retornaNome())
   
+
 //Função factory:
     function obj4(nome, salario, faltas){
         return{
